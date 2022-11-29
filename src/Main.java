@@ -1,8 +1,10 @@
 public class Main {
     public static void main(String[] args) {
         Student st = new Student("Max", "Zhuravlev", 33);
+        System.out.println();
     }
 }
+
 class Student {
     private String name;
     private String surname;
@@ -13,4 +15,7 @@ class Student {
         this.surname = surname;
         this.age = age;
     }
+}
+class StudentTest {
+
 }
